@@ -4,7 +4,7 @@ You have been provided with two data sets (.csv format).
 
 Data set **applicants.csv** contains information collected about job applicants applying to one or more job positions at a specified organization. Each row corresponds to information on an individual applying to a single job position. The fields and their definitions are listed in Table 1.
 
-Data set **hires.csv **contains information collected about a subset of these applicants that were hired to fill a job position at one of the specified organizations. Each row corresponds to an individual employee. Table 2 lists the fields contained in this data set.
+Data set **hires.csv** contains information collected about a subset of these applicants that were hired to fill a job position at one of the specified organizations. Each row corresponds to an individual employee. Table 2 lists the fields contained in this data set.
 
 The field *User_Id* is contained in both files and can be used to join applicants to their associated hire information. Note that some of the individuals contained in the **hires.csv** file are currently employed, thus the stated tenure length represents tenure length at the time of the most recent data extract.  A few individuals have tenure lengths that are not known, i.e. their tenure_length value is missing.
 
@@ -54,7 +54,7 @@ Code
 
 We are not necessarily interested in having you spend most of your  time coming up with the absolute best predictive model for the stated problem. Our interest is more in gaining an understanding of how you approach different types of questions, i.e. your analysis *process*. We suggest that you spend no more than half of your time on the first two questions, saving sufficient time to work through Question 3.
 
-**Table 1: **Field definitions for data contained in **applicants.csv**
+**Table 1: Field definitions for data contained in applicants.csv**
 
 <table>
   <tr>
@@ -90,7 +90,7 @@ We are not necessarily interested in having you spend most of your  time coming 
 </table>
 
 
- **Table 2: **Field definitions for data contained in **hires.csv**
+ **Table 2: Field definitions for data contained in hires.csv**
 
 <table>
   <tr>
