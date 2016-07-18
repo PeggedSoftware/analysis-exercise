@@ -10,7 +10,7 @@ The field *User_Id* is contained in both files and can be used to join applicant
 
 ### Instructions
 
-Use these two data sets, and whatever tools you are most comfortable with, to answer the following questions to the best of your ability.
+Clone this repo. Use the two data sets, and whatever tools you are most comfortable with, to answer the following questions to the best of your ability.
 
 1. Data Exploration
 
@@ -50,7 +50,7 @@ Code
 
 * Readability (includes some basic documentation)
 
-* Executability (can we get it to run?)
+* Executability (can we get it to run? Provide a small set of instructions for how to run your code, don't use hard-coded paths, and specify what packages need to be installed)
 
 We are not necessarily interested in having you spend most of your  time coming up with the absolute best predictive model for the stated problem. Our interest is more in gaining an understanding of how you approach different types of questions, i.e. your analysis *process*. We suggest that you spend no more than half of your time on the first two questions, saving sufficient time to work through Question 3.
 
