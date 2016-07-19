@@ -26,9 +26,9 @@ Clone this repo. Use the two data sets, and whatever tools you are most comforta
 
 3. Predictive Modeling
 
-    5. Develop a model that can be used to predict whether an applicant to one of the given organizations and job positions is likely to remain employed for less than 6 months, between 6 and 12 months, or greater than 12 months. Provide information on any assumptions you have made, as well as steps you may have taken to address potential issues in the data.
+    5. Develop one or more models that can be used to predict whether an applicant to one of the given organizations and job positions is likely to remain employed for less than 6 months, between 6 and 12 months, or greater than 12 months. Provide justification for the modeling methodology(s) you use,  discussion on any algorithm tuning you may have done, any assumptions you have made, as well as steps you may have taken to address potential issues in the data.  
 
-    6. Using a method of your choosing, evaluate the performance of the model and provide an assessment of whether your model(s) would be useful for making hiring recommendations to HR managers at the specified organizations.
+    6. Using one or more methods of your choosing, evaluate the performance of the model and provide an assessment of whether your model(s) would be useful for making hiring recommendations to HR managers at the specified organizations.
 
 Please submit a brief writeup (3-4 pages at most) that summarizes your findings in a form that could be understood by a non-technical colleague, along with the code used to conduct your analysis, via   e-mail to [bonnie@peggedsoftware.com](mailto:bonnie@peggedsoftware.com). The report can be submitted in the format of your choosing, e.g. Word/PPT,  Google Doc/Slides,  PDF,  R markdown report, Jupyter notebook, whatever works, as long as it is readable and contains explanations of problem/approach/summary in English (not just code).
 
@@ -50,7 +50,7 @@ Code
 
 * Readability (includes some basic documentation)
 
-* Executability (can we get it to run? Provide a small set of instructions for how to run your code, don't use hard-coded paths, and specify what packages need to be installed)
+* Executability (can we get it to run?) Provide a small set of instructions for how to run your code, don't use hard-coded paths, and specify what packages need to be installed 
 
 We are not necessarily interested in having you spend most of your  time coming up with the absolute best predictive model for the stated problem. Our interest is more in gaining an understanding of how you approach different types of questions, i.e. your analysis *process*. We suggest that you spend no more than half of your time on the first two questions, saving sufficient time to work through Question 3.
 
