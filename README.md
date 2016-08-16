@@ -4,7 +4,7 @@ You have been provided with two data sets (.csv format).
 
 Data set **applicants.csv** contains information collected about job applicants applying to one or more job positions at a specified organization. Each row corresponds to information on an individual applying to a single job position. The fields and their definitions are listed in Table 1.
 
-Data set **hires.csv** contains information collected about a subset of these applicants that were hired to fill a job position at one of the specified organizations. Each row corresponds to an individual employee. Table 2 lists the fields contained in this data set.
+Data set **hires.csv** contains information collected about a subset of these applicants that were hired to fill a job position at one of the specified organizations. Each row corresponds to an individual employee. Table 2 lists the fields contained in this data set. Note that the **hires.csv** data may contain individuals not appearing in the **applicants.csv** data. This just means that some hires were made without the data contained in **applicants.csv** being collected for these hires.
 
 The field *User_Id* is contained in both files and can be used to join applicants to their associated hire information. Note that some of the individuals contained in the **hires.csv** file are currently employed, thus the stated tenure length represents tenure length at the time of the most recent data extract.  A few individuals have tenure lengths that are not known, i.e. their tenure_length value is missing.
 
@@ -65,7 +65,7 @@ We are not necessarily interested in having you spend most of your  time coming 
   <tr>
     <td>user_id</td>
     <td>int</td>
-    <td>Unique user_id for each applicant</td>
+    <td>Unique user_id for an applicant applying to a specific job category </td>
   </tr>
   <tr>
     <td>client_name</td>
@@ -75,7 +75,7 @@ We are not necessarily interested in having you spend most of your  time coming 
   <tr>
     <td>answer1:answer25</td>
     <td>int</td>
-    <td>answers to 25 questions included in questionnaire completed by applicants (encoded as integers) Note: most of the questions required selecting an answer from among a set of four or five possible choices</td>
+    <td>answers to 25 questions included in questionnaire completed by applicants (encoded as integers) Note: most, but not all,  of the questions required selecting an answer from among a set of four or five possible choices</td>
   </tr>
   <tr>
     <td>log_total_time</td>
@@ -101,7 +101,7 @@ We are not necessarily interested in having you spend most of your  time coming 
   <tr>
     <td>user_id</td>
     <td>int</td>
-    <td>Unique user_id for each employee at time of application</td>
+    <td>User_id for each employee at time of application</td>
   </tr>
   <tr>
     <td>client</td>
