@@ -30,7 +30,7 @@ Clone this repo. Use the two data sets, and whatever tools you are most comforta
 
     6. Using one or more methods of your choosing, evaluate the performance of the model and provide an assessment of whether your model(s) would be useful for making hiring recommendations to HR managers at the specified organizations.
 
-Please submit a brief writeup (3-4 pages at most) that summarizes your findings in a form that could be understood by a non-technical colleague, along with the code used to conduct your analysis, via   e-mail to [bonnie@peggedsoftware.com](mailto:bonnie@peggedsoftware.com). The report can be submitted in the format of your choosing, e.g. Word/PPT,  Google Doc/Slides,  PDF,  R markdown report, Jupyter notebook, whatever works, as long as it is readable and contains explanations of problem/approach/summary in English (not just code).
+Please submit a brief writeup (3-4 pages at most) that summarizes your findings in a form that could be understood by a non-technical colleague, along with the code used to conduct your analysis, via   e-mail to [michelleye@arena.io](mailto:michelleye@arena.io). The report can be submitted in the format of your choosing, e.g. Word/PPT,  Google Doc/Slides,  PDF,  R markdown report, Jupyter notebook, whatever works, as long as it is readable and contains explanations of problem/approach/summary in English (not just code).
 
 The results of your analysis will be assessed based on the following criteria:
 
